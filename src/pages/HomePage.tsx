@@ -3,7 +3,6 @@ import { ArrowRight, Shield, Zap, Search, ChevronRight, Mail, MapPin, Phone, Glo
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import logo from "../assets/logo.png";
 
 export default function HomePage() {
   const [employees, setEmployees] = useState(50);
@@ -17,7 +16,7 @@ export default function HomePage() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-zinc-100">
         <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
           <div className="flex items-center">
-            <img src={logo} alt="Akribai Logo" className="h-8 w-auto object-contain" />
+            <img src="/logo.png" alt="Akribai Logo" className="h-8 w-auto object-contain" />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#drift" className="text-sm font-medium text-zinc-500 hover:text-zinc-950 transition-colors">The Drift</a>
