@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowLeft, Search, Shield, Zap, BarChart3, Mail, MapPin, Globe } from "lucide-react";
+import { Search, Shield, Zap, BarChart3, Mail, MapPin, Globe } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
@@ -26,8 +26,7 @@ export default function FAQPage() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-zinc-100">
         <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
-          <Link to="/" className="flex items-center gap-2 group">
-            <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+          <Link to="/" className="flex items-center group">
             <img src={logo} alt="Akribai Logo" className="h-8 w-auto object-contain" />
           </Link>
           <div className="hidden md:flex items-center gap-8">
