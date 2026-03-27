@@ -3,6 +3,7 @@ import { ArrowLeft, Search, Shield, Zap, BarChart3, Mail, MapPin, Globe } from "
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
+import logo from "../assets/logo.png";
 
 export default function FAQPage() {
   const { hash } = useLocation();
@@ -27,7 +28,7 @@ export default function FAQPage() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 group">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <img src="logo.png" alt="Akribai Logo" className="h-8 w-auto object-contain" />
+            <img src={logo} alt="Akribai Logo" className="h-8 w-auto object-contain" />
           </Link>
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-sm font-medium text-zinc-500 hover:text-zinc-950 transition-colors">Back to Home</Link>
