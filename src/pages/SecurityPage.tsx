@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import logo from "../assets/logo-new.png";
 
 export default function SecurityPage() {
   return (
@@ -11,7 +12,7 @@ export default function SecurityPage() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2 group">
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <img src="/logo new.png" alt="Akribai Logo" className="h-8 w-auto object-contain" referrerPolicy="no-referrer" />
+            <img src={logo} alt="Akribai Logo" className="h-8 w-auto object-contain" referrerPolicy="no-referrer" />
           </Link>
           <div className="hidden md:flex items-center gap-8">
             <Link to="/" className="text-sm font-medium text-zinc-500 hover:text-zinc-950 transition-colors">Back to Home</Link>
