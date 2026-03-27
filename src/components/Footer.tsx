@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 relative z-10">
         <div className="flex items-center">
           <Link to="/">
-            <img src="/logo.png" alt="Akribai Logo" className="h-6 w-auto object-contain" />
+            <img src="logo.png" alt="Akribai Logo" className="h-6 w-auto object-contain" />
           </Link>
         </div>
         <div className="flex gap-8 text-sm font-medium text-zinc-400">
