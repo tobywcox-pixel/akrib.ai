@@ -3,7 +3,7 @@ import { ArrowLeft, Search, Shield, Zap, BarChart3, Mail, MapPin, Globe } from "
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "../components/Footer";
-import logo from "../assets/logo-new.png";
+import logo from "../assets/logo.png";
 
 export default function FAQPage() {
   const { hash } = useLocation();

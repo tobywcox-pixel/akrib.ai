@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { ArrowLeft, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import logo from "../assets/logo-new.png";
+import logo from "../assets/logo.png";
 
 export default function PrivacyPage() {
   return (

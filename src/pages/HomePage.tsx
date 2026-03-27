@@ -3,7 +3,7 @@ import { ArrowRight, Shield, Zap, Search, ChevronRight, Mail, MapPin, Phone, Glo
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import logo from "../assets/logo-new.png";
+import logo from "../assets/logo.png";
 
 export default function HomePage() {
   const [employees, setEmployees] = useState(50);
